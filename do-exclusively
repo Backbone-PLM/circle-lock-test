@@ -77,8 +77,8 @@ set -o pipefail
         else
             break
         fi
-        echo "Retrying in 5 seconds..."
-        sleep 5
+        echo "Retrying in 5 minutes..."
+        sleep 300
     done
 
     echo "Acquired lock"
